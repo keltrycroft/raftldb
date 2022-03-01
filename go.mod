@@ -4,6 +4,7 @@ go 1.17
 
 require (
 	github.com/syndtr/goleveldb v1.0.0
+	github.com/tidwall/sds v0.1.0
 	github.com/tidwall/uhaha v0.8.1
 )
 

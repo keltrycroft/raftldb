@@ -3,8 +3,8 @@
 go build
 ```
 # Commands
-PUT key value 
-DEL key 
+SET key value 
+ 
 GET key
 
 # Building Cluster
@@ -18,7 +18,7 @@ GET key
 # Using
 ```
 redis-cli -p 11001
-> PUT cat tabby
+> SET cat tabby
 "OK"
 > GET cat
 "tabby"
